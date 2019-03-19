@@ -1,7 +1,3 @@
-hungry = false
+is_true = 2 != 3
 
-unless hungry
-  puts "I'm writing Ruby programs!"
-else
-  puts "Time to eat!"
-end
+is_false = 2 == 3
