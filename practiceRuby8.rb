@@ -1,8 +1,15 @@
-puts "something here: "
+puts "Enter a phrase you'd like to analyze: "
 text = gets.chomp
-words = text.split(" ")
+
+words = text.split
 
 frequencies = Hash.new(0)
 
-#the (" ") on line 3 was asked for previous but it breaks the compiler on 
-#codecademy. so getting confused
+words.each { |word| frequencies[word] += 1 }
+
+=begin
+frequencies = Hash.new(0)
+words.each { |word| frequencies[word] += 1}
+
+this it what i had it didn't work but the one above did?
+=end
