@@ -1,8 +1,12 @@
-s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
-
-s.each do |sub_array| sub_array.each do| y| 
-  puts y
+secret_identities = {
+  "The Batman" => "Bruce Wayne",
+  "Superman" => "Clark Kent",
+  "Wonder Woman" => "Diana Prince",
+  "Freakazoid" => "Dexter Douglas"
+}
+  
+secret_identities.each do |fake, real|
+  puts "#{fake}: #{real}"
 end
-end
 
-# worked but not sure i undertood or will remember how...
+#hmm again it worked how i thought
