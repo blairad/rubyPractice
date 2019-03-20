@@ -1,1 +1,3 @@
-my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+demo_array = [100, 200, 300, 400, 500]
+
+print demo_array[2]
