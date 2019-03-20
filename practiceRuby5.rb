@@ -1,7 +1,6 @@
-i = 1
-until i >= 51 do
-  print i
-  i += 1
-end
+for i in 1..50
+    print i
+    i += 1
+  end
 
-#often silly mistakes
+  
