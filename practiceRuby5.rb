@@ -1,1 +1,7 @@
-my_array = [1, 2, 3, 4, 5]
+odds = [1,3,5,7,9]
+
+odds.each do |odds|
+  print odds*2
+end
+
+#sorta getting it. it feels like it takes more knowlege to comeple than i've been tought at times
