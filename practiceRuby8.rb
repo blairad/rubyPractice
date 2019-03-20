@@ -7,9 +7,14 @@ frequencies = Hash.new(0)
 
 words.each { |word| frequencies[word] += 1 }
 
-=begin
-frequencies = Hash.new(0)
-words.each { |word| frequencies[word] += 1}
+frequencies = frequencies.sort_by do |word, count|
+  count
+end
 
-this it what i had it didn't work but the one above did?
+frequencies.reverse!
+
+=begin
+frequencies = frequencies.sort_by {}
+frequencies.reverse!
+|word, count | not sure where these are coming from to be honest
 =end
