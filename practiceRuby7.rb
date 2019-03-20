@@ -1,12 +1,3 @@
-secret_identities = {
-  "The Batman" => "Bruce Wayne",
-  "Superman" => "Clark Kent",
-  "Wonder Woman" => "Diana Prince",
-  "Freakazoid" => "Dexter Douglas"
-}
-  
-secret_identities.each do |fake, real|
-  puts "#{fake}: #{real}"
-end
+my_array = [[1,1,1,1,1], ["this", "is", "a", "string?"], [true, false]]
 
-#hmm again it worked how i thought
+#again right. i hope i'm learning
