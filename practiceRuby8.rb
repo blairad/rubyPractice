@@ -13,8 +13,25 @@ end
 
 frequencies.reverse!
 
+frequencies.each do |word, count|
+  puts word + " " + count.to_s
+end
+
 =begin
-frequencies = frequencies.sort_by {}
+puts "Enter a phrase you'd like to analyze: "
+text = gets.chomp
+
+words = text.split
+
+frequencies = Hash.new(0)
+
+words.each { |word| frequencies[word] += 1 }
+
+frequencies.each do |word, frequency| puts word + " " + frequency.to_s
+end
+
 frequencies.reverse!
-|word, count | not sure where these are coming from to be honest
+
 =end
+
+# yeah na not gwtting it now
