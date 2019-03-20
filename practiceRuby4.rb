@@ -7,3 +7,5 @@ if user_input.include? "s"
 else
     puts "there are no 's's in the string"
 end
+
+puts "Your string is: #{user_input}!!"
