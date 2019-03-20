@@ -1,11 +1,19 @@
-my_hash = {
-  "dumpling" => 5.5,
-  "no dumpling" => 0,
-  "noodles" => 5.75
-  }
+lunch_order = {
+  "Ryan" => "wonton soup",
+  "Eric" => "hamburger",
+  "Jimmy" => "sandwich",
+  "Sasha" => "salad",
+  "Cole" => "taco"
+}
+lunch_order.each do |name, food|
+    puts "#{food}"
+  end
 
-my_hash = Hash.new
-my_hash["dog"] = "woof"
-my_hash["cat"] = "meow"
+=begin
+lunch_order.each do |name, food|
+  puts "#{name}: #{food}"
+end
+=end
 
-# worked this time. still don't understand how it didn't last time...
+#did the comment first. printed both not just the first
+#fixed it to what it is now
