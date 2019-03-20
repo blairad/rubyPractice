@@ -1,3 +1,8 @@
-languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
 
-languages.each { |element| puts element}
+s.each do |sub_array| sub_array.each do| y| 
+  puts y
+end
+end
+
+# worked but not sure i undertood or will remember how...
