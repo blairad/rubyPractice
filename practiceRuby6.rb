@@ -5,20 +5,11 @@ puts "Enter words to redact: "
 redact = gets.chomp
 
 words = text.split(" ")
-words.each { |word| print word }
+words.each { |word| 
+  if word == redact
+    print "REDACTED "
+  else
+ 		print word + " "
+  end }
 
-=begin
-text = gets.chomp
-
-redact = gets.chomp
-
-words = text.split(" ")
-
-words = ["these are some words here maybe?"]
-words.each do |words|
-  print words
-end
-
-=end
-
-#i don't feel the explination is very clear again for what is expected...
+#not overly enjoying ruby
