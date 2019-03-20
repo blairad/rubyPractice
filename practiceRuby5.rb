@@ -1,3 +1,7 @@
-10.times {print "what is imposter syndrome"}
+i = 1
+while i <= 50 do
+  print i
+  i += 1
+end
 
-#what is imposter syndrome??
+#wrong first time as i forgot the = in the <=
