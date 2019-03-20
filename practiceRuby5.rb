@@ -1,7 +1,6 @@
-i = 0
-while i < 5
-  puts i 
-  i = i + 1
-  # Add your code here! this is copied over from codecademy
+counter = 1
+until counter > 10
+  puts counter = counter + 1
+  # Add code to update 'counter' here!
   
 end
