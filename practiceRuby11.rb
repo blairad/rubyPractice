@@ -1,10 +1,20 @@
-symbol_hash = {
-  :one => 1,
-  :two => 2,    # Fill in these two blanks!
-  :three => 3,
-}
+strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+symbols = []
+
+strings.each do |s| 
+ symbols.push(s.to_sym)
+end 
+print symbols
 
 =begin
-Symbols pop up in a lot of places in Ruby, but they’re primarily 
-used either as hash keys or for referencing method names.
+
+symbols = []
+strings.each do |i|
+# if strings == s
+   symbols.push(string)
+  end
+end
+
+added in an if for some reason
+need more practice
 =end
