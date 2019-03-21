@@ -1,7 +1,11 @@
-book_1 = "A Wrinkle in Time"
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 
-book_2 = "A Brief History of Time"
+# To sort our books in ascending order, in-place
+books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
 
-book_1 <=> book_2
+# Sort your books in descending order, in-place below
 
-#not sure what to expect form the output maybe -1?
+books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
+
+# books.sort! { |secondBook, firstBook| secondBook <=> firstBook }
+#my answer was almost right :/
