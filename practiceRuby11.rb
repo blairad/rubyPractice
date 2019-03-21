@@ -1,20 +1,10 @@
-strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+strings == ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
 symbols = []
 
 strings.each do |s| 
- symbols.push(s.to_sym)
+ symbols.push(s.intern)
 end 
 print symbols
 
-=begin
-
-symbols = []
-strings.each do |i|
-# if strings == s
-   symbols.push(string)
-  end
-end
-
-added in an if for some reason
-need more practice
-=end
+#intern works the same as .to_sym and may be used together
+#a warning popped up to add the extra = to strings... but it still worked without
