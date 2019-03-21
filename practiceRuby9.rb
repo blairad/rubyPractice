@@ -1,9 +1,7 @@
-my_array = [3, 4, 8, 7, 1, 6, 5, 9, 2]
+book_1 = "A Wrinkle in Time"
 
-# Call the sort! method on my_array below.
-# my_array should then equal [1, 2, 3, 4, 5, 6, 7, 8, 9].
+book_2 = "A Brief History of Time"
 
-puts my_array.sort!
+book_1 <=> book_2
 
-# puts my_array.sort 
-# this on the face of it gives the same result but is wrong somewhere
+#not sure what to expect form the output maybe -1?
