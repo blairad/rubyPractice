@@ -1,3 +1,13 @@
-def add(i, n)
-    return i + n
+def greeter(name)
+    return "Hello, #{name}!"
   end
+  
+  def by_three?(num)
+    if num % 3 == 0
+      return true
+    else
+      return false
+    end
+  end
+    
+# fuked up a few times   
