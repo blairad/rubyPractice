@@ -12,4 +12,4 @@ words.each { |word|
  		print word + " "
   end }
 
-#not overly enjoying ruby
+#not overly enjoying ruby. it doesnt seem to be clear what we're redacting or how or why
