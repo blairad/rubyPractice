@@ -1,12 +1,9 @@
-matz = { "First name" => "Yukihiro",
-  "Last name" => "Matsumoto",
-  "Age" => 47,
-  "Nationality" => "Japanese",
-  "Nickname" => "Matz"
+creatures = { "weasels" => 0,
+  "puppies" => 6,
+  "platypuses" => 3,
+  "canaries" => 1,
+  "Heffalumps" => 7,
+  "Tiggers" => 1
 }
 
-matz.each do |key, answer|
-  puts matz[key]
-end
-
-# sorta getting it 
+creatures["dogs"]
