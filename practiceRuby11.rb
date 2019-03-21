@@ -1,6 +1,6 @@
 movies ={
-  :"Point Break" => "cops and robber bromance",
-  :"Home Alone" => "He makes his parents disappear",
+  PointBreak:  "cops and robber bromance",
+  HomeAlone: "He makes his parents disappear",
   }
 
-  #small mistake forgetting the ,
+  #hash rockets gone : symbol at end of hash now
