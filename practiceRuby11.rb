@@ -1,1 +1,1 @@
-no_nil_hash = Hash.new(1)
+my_first_symbol = :something
