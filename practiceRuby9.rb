@@ -1,11 +1,8 @@
-books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+def welcome
+    puts "Welcome to ruby!"
+  end
+  
+  welcome
 
-# To sort our books in ascending order, in-place
-books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
-
-# Sort your books in descending order, in-place below
-
-books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
-
-# books.sort! { |secondBook, firstBook| secondBook <=> firstBook }
-#my answer was almost right :/
+  # this is correct on codecademy but prints the string twice to the console
+  # remove the welcome it is wrong but still prints to console...
