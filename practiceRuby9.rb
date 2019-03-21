@@ -1,13 +1,9 @@
-def greeter(name)
-    return "Hello, #{name}!"
-  end
-  
-  def by_three?(num)
-    if num % 3 == 0
-      return true
-    else
-      return false
-    end
-  end
-    
-# fuked up a few times   
+my_array = [3, 4, 8, 7, 1, 6, 5, 9, 2]
+
+# Call the sort! method on my_array below.
+# my_array should then equal [1, 2, 3, 4, 5, 6, 7, 8, 9].
+
+puts my_array.sort!
+
+# puts my_array.sort 
+# this on the face of it gives the same result but is wrong somewhere
