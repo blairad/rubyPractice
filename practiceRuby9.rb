@@ -1,8 +1,6 @@
-def welcome
-    puts "Welcome to ruby!"
+def welcome(name)
+    return "hello, #{name}"
   end
   
-  welcome
-
-  # this is correct on codecademy but prints the string twice to the console
-  # remove the welcome it is wrong but still prints to console...
+  
+  
