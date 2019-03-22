@@ -1,3 +1,7 @@
-# Write your code below!
+age = 26
 
-"A".upto("P") {|letter| puts letter}
+# Add your code below!
+
+[age].respond_to?(:push)
+
+#still dont understand
