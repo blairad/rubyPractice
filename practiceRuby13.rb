@@ -1,25 +1,13 @@
-puts "Hello there!"
-greeting = gets.chomp
+# Write your code on line 2!
+favorite_language ||= "Ruby"
+puts favorite_language
 
-# Add your case statement below!
+# Write your code on line 2!
+=begin 
 
+favourite_language ||= "Ruby"
+puts favorite_language
 
-case greeting
-  when "English" then puts "Hello!"
-  when "French" then puts "Bonjour!"
-  when "German" then puts "Guten Tag!"
-  when "Finnish" then puts "Haloo!"
-  else puts "I don't know that language!"
-end
-    
-=begin
-    case greeting 
-    when "English" then puts "Hello!" 
-    when "French" then puts "Bonjour!" 
-    when "German" then puts "Guten Tag!" 
-    when "Finnish" then puts "Haloo!" 
-    else puts "I don't know that language!" 
-    end
 =end
 
-#bottom is mine. doesnt compile but is identical?
+#mine is wrong the other is right.
