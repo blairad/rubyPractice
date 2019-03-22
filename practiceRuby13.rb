@@ -1,5 +1,7 @@
-alphabet = ["a", "b", "c"]
-alphabet << ("d") # Update me!
+favorite_things = ["Ruby", "espresso", "candy"]
 
-caption = "A giraffe surrounded by "
-caption << "weezards!" # Me, too!
+puts "A few of my favorite things:"
+
+favorite_things.each do |thing|
+  puts "I love " "#{thing}" "!"
+end
