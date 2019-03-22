@@ -1,13 +1,5 @@
-# Write your code on line 2!
-favorite_language ||= "Ruby"
-puts favorite_language
+def multiple_of_three(n)
+    n % 3 == 0 ? "True" : "False"
+ end
 
-# Write your code on line 2!
-=begin 
-
-favourite_language ||= "Ruby"
-puts favorite_language
-
-=end
-
-#mine is wrong the other is right.
+ #i want this tutorial to be over
