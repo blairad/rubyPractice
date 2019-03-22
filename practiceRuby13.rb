@@ -1,7 +1,5 @@
-age = 26
+alphabet = ["a", "b", "c"]
+alphabet << ("d") # Update me!
 
-# Add your code below!
-
-[age].respond_to?(:push)
-
-#still dont understand
+caption = "A giraffe surrounded by "
+caption << "weezards!" # Me, too!
