@@ -1,1 +1,1 @@
-puts "will i ever learn this" if true
+puts "will i ever learn this" unless false
