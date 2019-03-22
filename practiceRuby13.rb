@@ -1,7 +1,3 @@
-favorite_things = ["Ruby", "espresso", "candy"]
+if 1 < 2 then puts "One is less than two!" end
 
-puts "A few of my favorite things:"
-
-favorite_things.each do |thing|
-  puts "I love " "#{thing}" "!"
-end
+  
