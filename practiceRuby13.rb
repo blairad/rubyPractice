@@ -1,3 +1,3 @@
-def square (i)
-    i ** 2
+3.times do
+    puts "I'm a refactoring master!"
   end
