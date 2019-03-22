@@ -33,10 +33,24 @@ when "display"
     puts "#{title}: #{rating}"
   end
 when "delete"
-  puts "Deleted!"
+  puts "What movie would you like to delete? "
+  title = gets.chomp
+ if movies[title.to_sym].nil? 
+   puts "That movie does not exist."
+ else
+   puts movies.delete(title)
+ end
 else
   puts "Error!"
 end
 
-# getting a bit frustrated and flustered at times and making 
-#obvious mistakes
+=begin
+
+when "delete"
+    puts "what movie would you like to delete"
+    title = gets.chomp
+    if movies[title.to_sym] = movies.delete(title)
+      puts "Deleted"
+=end
+
+#similar mistakes which i hope are beginer
