@@ -1,16 +1,21 @@
-floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
-# Write your code below this line!
+group_1 = [4.1, 5.5, 3.2, 3.3, 6.1, 3.9, 4.7]
+group_2 = [7.0, 3.8, 6.2, 6.1, 4.4, 4.9, 3.0]
+group_3 = [5.5, 5.1, 3.9, 4.3, 4.9, 3.2, 3.2]
 
-round_down = Proc.new { |x| x.floor }
+# Complete this as a new Proc
+over_4_feet = Proc.new { |height| height >= 4 }
 
-# Write your code above this line!
-ints = floats.collect(&round_down)
-print ints
+# Change these three so that they use your new over_4_feet Proc
+can_ride_1 = group_1.select(&over_4_feet)
+can_ride_2 = group_2.select(&over_4_feet)
+can_ride_3 = group_3.select(&over_4_feet)
 
+puts can_ride_1
+puts can_ride_2
+puts can_ride_3
 
 =begin
-round_down = Proc.floor {|x| x ** 3  }
 
-not a good attempt
-
+over_4_feet = proc.new { do |height| }
+so obvious but im missing it...
 =end
