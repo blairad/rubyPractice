@@ -1,19 +1,13 @@
-odds_n_ends = [:weezard, 42, "Trady Blix", 3, true, 19, 12.345]
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+
+# Add your code below!
+under_100 = Proc.new { |x| x < 100 }
+=begin
+
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
 
 # Add your code below!
 
-ints = odds_n_ends.select {|x|x.is_a? Integer}
-
-puts ints
-
-=begin
-
-odds_n_ends = [:weezard, 42, "Trady Blix", 3, true, 19, 12.345]
-
-ints = odds_n_ends.select {|x| x.is_a? Integer == true}
-
-puts ints
+under_100 = Proc.new {|x|  x.select}
 
 =end
-
-#added too much. less is more i think
