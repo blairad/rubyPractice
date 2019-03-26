@@ -1,16 +1,12 @@
-numbers_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-strings_array = numbers_array.map(&:to_s)
+strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
+# Write your code below this line!
 
-puts strings_array
+symbolize = lambda {|x| x.to_sym}
+
+# Write your code above this line!
+symbols = strings.collect(&symbolize)
+print symbols
 
 
-=begin
-numbers_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-strings_array =  numbers_array.map(&:to_i)
-
-puts strings_array
-=end
-
-#i'm an idiot
+#symbolize( lambda{|strings| strings.to_sym})
