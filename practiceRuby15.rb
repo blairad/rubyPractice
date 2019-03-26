@@ -1,12 +1,23 @@
+my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
 
-strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
-# Write your code below this line!
+# Add your code below!
+symbol_filter = lambda {|x| x.is_a? Symbol}
+symbols = my_array.select(&symbol_filter)
 
-symbolize = lambda {|x| x.to_sym}
+my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
 
-# Write your code above this line!
-symbols = strings.collect(&symbolize)
-print symbols
+puts symbols
 
+=begin
 
-#symbolize( lambda{|strings| strings.to_sym})
+my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
+
+# Add your code below!
+
+symbol_filter = (lambda {|x| x.to_sym})
+
+symbols = my_array.select (symbol_finder)
+
+puts symbols
+
+=end
