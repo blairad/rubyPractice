@@ -6,4 +6,11 @@ class Computer
       @files = {}
       @@users[username] = password
     end
+    
+    def create(filename)
+      time = Time.now
+      @files[filename] = time
+      puts = "New file created"
+    end
+    
   end
