@@ -1,16 +1,20 @@
 class Person
-    def initialize(name, age, profession)
+    # Set your class variable to 0 on line 3
+    @@people_count = 0
+    
+    def initialize(name)
       @name = name
-      @age = age
-      @profession = profession
+      # Increment your class variable on line 8
+      @@people_count += 1
+    end
+    
+    def self.number_of_instances
+      # Return your class variable on line 13
+      return @@people_count
     end
   end
-
-=begin
-
-A caveat, though: global variables can be changed from anywhere in 
-your program, and they are generally not a very good idea. 
-It’s much better to create variables with limited scope that can 
-only be changed from a few places!
-
-=end
+  
+  matz = Person.new("Yukihiro")
+  dhh = Person.new("David")
+  
+  puts "Number of Person instances: #{Person.number_of_instances}"
