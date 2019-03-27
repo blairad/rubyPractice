@@ -1,9 +1,9 @@
 class Computer
+    @@users = {}
     def initialize(username, password)
       @username = username
       @password = password
       @files = {}
+      @@users[username] = password
     end
   end
-
-  #  @files = {} is an empty hash to keep track of files
