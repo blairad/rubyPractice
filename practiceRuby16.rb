@@ -1,20 +1,22 @@
-class Person
-    # Set your class variable to 0 on line 3
-    @@people_count = 0
-    
+class Application
     def initialize(name)
       @name = name
-      # Increment your class variable on line 8
-      @@people_count += 1
-    end
-    
-    def self.number_of_instances
-      # Return your class variable on line 13
-      return @@people_count
     end
   end
   
-  matz = Person.new("Yukihiro")
-  dhh = Person.new("David")
+  # Add your code below!
+  class MyApp <Application
+  end
   
-  puts "Number of Person instances: #{Person.number_of_instances}"
+=begin
+
+In Ruby, inheritance works like this:
+
+class DerivedClass < BaseClass
+  # Some stuff!
+end
+The derived class is the new class you’re making and the base 
+class is the class from which that new class inherits. 
+You can read “<“ as “inherits from.”
+
+=end
