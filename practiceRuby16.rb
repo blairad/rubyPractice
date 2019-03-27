@@ -1,3 +1,6 @@
 class Person
+    def initialize
+    end
+  end
   
-end
+  
