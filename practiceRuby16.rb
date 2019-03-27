@@ -11,6 +11,7 @@ class Creature
   # Add your code below!
   class Dragon < Creature
     def fight
-      return "Breathes fire!"
+      puts "Instead of breathing fire..."
+      super 
     end
   end
