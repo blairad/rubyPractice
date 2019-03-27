@@ -11,10 +11,9 @@ crew = {
 # Add your code below!
 first_half = lambda { |x,y| y<"M"}
 
-=begin
+a_to_m = crew.select(&first_half)
 
-first_half = lambda{|k,v|  crew < 'M'}
+puts a_to_m
 
-not crew should've been y
-
-=end
+# i was right, but didn't have the (&first_half) right next to select so
+# didnt work...
