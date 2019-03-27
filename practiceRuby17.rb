@@ -18,3 +18,4 @@ class Computer
     end
     
   end
+my_computer = Computer.new("hal", 1234)
