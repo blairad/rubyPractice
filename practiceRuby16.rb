@@ -1,7 +1,8 @@
-class Person
-	def initialize(name)
-    @name = name
+class MyClass
+    $my_variable = "Hello!"
   end
-end
+  
+  puts $my_variable
 
-matz = Person.new("Yukihiro")
+  #need to the $ on the variable to make it global and work outside the
+  # class.
