@@ -1,15 +1,20 @@
-ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
-
+crew = {
+  captain: "Picard",
+  first_officer: "Riker",
+  lt_cdr: "Data",
+  lt: "Worf",
+  ensign: "Ro",
+  counselor: "Troi",
+  chief_engineer: "LaForge",
+  doctor: "Crusher"
+}
 # Add your code below!
-under_100 = Proc.new { |x| x < 100 }
-youngsters = ages.select(&under_100)
+first_half = lambda { |x,y| y<"M"}
 
+=begin
 
-ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+first_half = lambda{|k,v|  crew < 'M'}
 
-# Add your code below!
+not crew should've been y
 
-
-puts youngsters
-
-#had it the wrong way around initialy
+=end
