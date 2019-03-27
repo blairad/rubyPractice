@@ -8,15 +8,15 @@ class Message
   end
   
   class Email < Message
-    def initialize(subject)
-      @subject = subject
+    def initialize(from, to)
+     super
     end
   end
   
   my_message = Message.new("Ian", "Alex")
   
   
-=begin
+  =begin
   
   class Email < Message
     def initialize(subject)
@@ -24,8 +24,6 @@ class Message
     end
   end
   
-=end
-
-#correct but wrong again?
+  =end
   
   
