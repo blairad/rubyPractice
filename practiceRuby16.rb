@@ -7,4 +7,25 @@ class Message
     end
   end
   
-  my_message = Message.new("andrew", "doug")
+  class Email < Message
+    def initialize(subject)
+      @subject = subject
+    end
+  end
+  
+  my_message = Message.new("Ian", "Alex")
+  
+  
+=begin
+  
+  class Email < Message
+    def initialize(subject)
+      @subject = subject
+    end
+  end
+  
+=end
+
+#correct but wrong again?
+  
+  
