@@ -3,4 +3,10 @@ class Dog
       @name = name
       @breed = breed
     end
+    
+    public
+    def bark
+      puts  "Woof!"
+    end
+    
   end
