@@ -7,6 +7,10 @@ class Computer
       @@users[username] = password
     end
     
+   def Computer.get_users
+     return @@users
+   end
+    
     def create(filename)
       time = Time.now
       @files[filename] = time
