@@ -6,4 +6,8 @@ class Application
     def print_status
       puts "All systems go!"
   end
+    private
+    def password
+      return 12345
+    end
   end
