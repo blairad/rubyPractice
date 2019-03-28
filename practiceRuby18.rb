@@ -1,23 +1,9 @@
-# Create your module here!
-module MartialArts
-    def swordsman 
-      puts "I'm a swordsman."
-    end
+class Application
+    attr_accessor :status
+    def initialize; end
+    # Add your method here!
+    public
+    def print_status
+      puts "All systems go!"
   end
-  
-  
-  
-  
-  class Ninja
-  include MartialArts
-    def initialize(clan)
-      @clan = clan
-    end
-  end
-  
-  class Samurai
-  include MartialArts
-    def initialize(shogun)
-      @shogun = shogun
-    end
   end
