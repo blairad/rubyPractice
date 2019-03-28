@@ -4,4 +4,9 @@ class Account
       @name = name
       @balance = balance
     end
+    private
+    def initalize(pin, pin_error)
+      @pin = 1234
+      @pin_error = "Access denied: incorrect PIN."
+    end
   end
