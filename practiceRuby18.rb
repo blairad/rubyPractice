@@ -1,1 +1,3 @@
-puts Math::PI
+require "date"
+
+puts Date.today
