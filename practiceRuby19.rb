@@ -33,19 +33,4 @@ class Account
     end 
   end
 
-
-
-=begin
-
-def withdraw(pin_number, amount)
-    if pin_number == pin
-      @balance -= amount
-      puts "Withdrew #{amount}. New balance: $#{@balance}."
-    else
-      puts pin_error
-    end
-  end
-
-=end
-
-#seemed the answer wanted less than it asked for and to much was wrong?
+checking_account = Account.new("andrew", 5_000)
