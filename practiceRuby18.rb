@@ -1,15 +1,23 @@
-class Angle
-    include Math
-    attr_accessor :radians
-    
-    def initialize(radians)
-      @radians = radians
-    end
-    
-    def cosine
-      cos(@radians)
+# Create your module here!
+module MartialArts
+    def swordsman 
+      puts "I'm a swordsman."
     end
   end
   
-  acute = Angle.new(1)
-  acute.cosine
+  
+  
+  
+  class Ninja
+  include MartialArts
+    def initialize(clan)
+      @clan = clan
+    end
+  end
+  
+  class Samurai
+  include MartialArts
+    def initialize(shogun)
+      @shogun = shogun
+    end
+  end
